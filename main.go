@@ -17,7 +17,7 @@ import (
 
 type Data struct {
 	Name string `bson:"name"`
-	Date time.Time `bson:"sale_date"`
+	Date time.Time `bson:"date"`
 	Open float32
 	High float32
 	Low float32
